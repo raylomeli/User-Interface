@@ -161,16 +161,23 @@ h5 {
 }
 
 .navigation {
-	border: 1px solid red;
+	border: 1px dotted red;
 	position: relative;
+	margin-bottom: 40px;
 }
 
 nav {
-	display: inline-block
+	display: inline-block;
+
+}
+
+nav a {
+	color: grey;
 }
 
 .navigation img {
 	display: inline-block;
 	position: absolute;
+	margin-left: 350px;
 
 }
